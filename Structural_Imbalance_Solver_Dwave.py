@@ -20,7 +20,7 @@ from dwave.system.samplers import DWaveSampler
 from dwave.system.composites import EmbeddingComposite
 
 
-sampler = EmbeddingComposite(DWaveSampler(solver='DW_2000Q_2_1', token="DEV-eda2542daa9edc7a5fd6068ba1df1fcc95ecf697"))
+sampler = EmbeddingComposite(DWaveSampler(solver="", token="")) #Make sure to add your API token and solver
 
 
 

@@ -99,7 +99,6 @@ for node in S.nodes:
 list(S.nodes(data=True))[:2]
 
 
-# In[ ]:
 
 
 # Edges now have a marking indicating whether they are frustrated or not
